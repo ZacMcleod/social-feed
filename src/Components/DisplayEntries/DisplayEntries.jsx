@@ -6,7 +6,7 @@ const DisplayEntries = (props) => {
                 <tr>
                 <th>Entry Number</th>
                 <th>User Name</th>
-                <th>body</th>
+                <th>Text</th>
                 <th>Liked Status</th>
                 </tr>
             </thead>
@@ -16,7 +16,7 @@ const DisplayEntries = (props) => {
                     <tr>
                     <td>{index + 1}</td>
                     <td>{entry.userName}</td>
-                    <td>{entry.body}</td>
+                    <td>{entry.text}</td>
                     </tr>
                 );
                 })}
